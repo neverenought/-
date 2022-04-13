@@ -1,0 +1,15 @@
+from math import*
+a=int(input('Угол А:'))
+a=radians(a)
+s=sin(a)
+s=degrees(s)
+print('Синус:',s)
+b= cos(a)
+b=degrees(b)
+print('Косинус:',b)
+t=tan(a)
+t=degrees(t)
+print('Тангенс:',t)
+kot=b//s
+kot = degrees(kot)
+print('Котангенс:',kot)
